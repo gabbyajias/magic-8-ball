@@ -18,43 +18,43 @@ function shakeMagic8Ball() {
     switch (randomNumber) {
         case 0:
             answer = "YES";
-            image = "yes-image.jpg" //change this!!;
+            image = "10.webp" //change this!!;
             color = "text-success";
             break;
         case 1:
             answer = "NO";
-            image = "no-image.jpg" //change this!!;
+            image = "images.jpg" //change this!!;
             color = "text-danger";
             break;
         case 2:
             answer = "TRY AGIAN LATER";
-            image = "later-image.jpg" //change this!!;
-            color = "text-secondary";
+            image = "try.jpg" //change this!!;
+            color = "text-primary";
             break;
         case 3:
             answer = "HMMM MAYBE";
-            image = "maybe-image.jpg";//change this!!;
-            color = "text-warning";
+            image = "may.jpg";//change this!!;
+            color = "text-info";
             break;
         case 4:
             answer = "NOT SURE";
-            image = "cannot-predict-image.jpg";//change this!!;
-            color = "text-muted";
+            image = "hmm.jpg";//change this!!;
+            color = "text-success-emphasis";
             break;
         case 5:
             answer = "DONT THINK SO";
-            image = "dont-count-on-it-image.jpg";//change this!!;
-            color = "text-danger";
+            image = "not.jpg";//change this!!;
+            color = "text-success-emphasis";
             break;
         case 6:
             answer = "PROBABLY";
-            image = "most-likely-image.jpg";//change this!!;
-            color = "text-success";
+            image = "prob.jpg";//change this!!;
+            color = "text-primary-emphasis";
             break;
         case 7:
             answer = "MOST DEFINITELY";
-            image = "outlook-not-good-image.jpg";//change this!!;
-            color = "text-danger";
+            image = "100.png";//change this!!;
+            color = "text-info";
             break;
         default:
             break;
